@@ -22,8 +22,8 @@ function App() {
     <Routes>
        {/* Commenting login page for Netlify preview */}
   {/* <Route path="/" element={<Login/>}/> */
-    {/* Show Shop directly */}
-      <Route path="/Register" element={<Register/>}/>
+  {/* <Route path="/Register" element={<Register/>}/> */}
+      {/* Show Shop directly */}
        <Route path="/Home" element={<Home/>}/>
       
        <Route path="/ProductsModule" element={<ProductsModule/>}/>
