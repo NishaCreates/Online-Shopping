@@ -1,3 +1,5 @@
+Note: Login and backend features require the backend server to be running. The frontend UI is fully functional for demo purposes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
