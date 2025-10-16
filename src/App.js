@@ -24,6 +24,8 @@ function App() {
   {/* <Route path="/" element={<Login/>}/> */}
   {/* <Route path="/Register" element={<Register/>}/> */}
       {/* Show Shop directly */}
+    {/* ✅ Show Home page directly on site load */}
+       <Route path="/" element={<Home />} />
        <Route path="/Home" element={<Home/>}/>
       
        <Route path="/ProductsModule" element={<ProductsModule/>}/>
