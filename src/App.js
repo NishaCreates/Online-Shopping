@@ -20,8 +20,9 @@ function App() {
     <CartProvider>
    <Router>
     <Routes>
-     
-      <Route path="/" element={<Login/>}/>
+       {/* Commenting login page for Netlify preview */}
+  {/* <Route path="/" element={<Login/>}/> */
+    {/* Show Shop directly */}
       <Route path="/Register" element={<Register/>}/>
        <Route path="/Home" element={<Home/>}/>
       
